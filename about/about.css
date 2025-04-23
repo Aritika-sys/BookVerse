@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+   
+    padding: 30px;
+    background-color: #333;
+    align-items: normal;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    
+}
+
+p, ul {
+    font-size: 16px;
+    color: #555;
+    margin :15px 0;
+}
+
+.container {
+    width: 100%;
+    margin-top: 80px;
+    
+    margin:  auto;
+    padding:  5%;
+    padding-top: 35px;
+    background-color: #938ee656;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(129, 163, 236, 0.1);
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    text-align: center;
+}
+ul{
+    list-style-type:none;
+    padding: 0;
+}
+ul li{
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 1.5;
+    background-color: #eee;
+    color: #333;
+    text-align: justify;
+    border-radius: 5px;
+}
+header {
+    background-color: #0218de61;
+    color: rgb(239, 237, 252);
+    
+    
+}
+ h1{
+    text-align: center;
+ }
+ .teammem img{
+    height: 30px;
+    width: 30PX;
+    
+    padding-left: 10px;
+    
+}
+
+.absec, .teamsec {
+    padding: 2em;
+    text-align: center;
+}
+
+.teamsec {
+    background-color: #ffffff9d;
+}
+
+.teammem {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+}
+
+.teammem img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.teammem h3{
+    margin: 0.5em 0 0.2em;
+}
+
+.teammem p{
+    margin: 0;
+    color: #777;
+}
+
+.homeb {
+    margin: 1px;
+    padding: 4px ;
+    font-size: 16px;
+    background-color: #ffffffc0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
