@@ -1,0 +1,215 @@
+.home-section {
+    width: 100%;
+    height: 55vh; /* Add navbar height */
+    padding-top: 70px; /* Push content below navbar */
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+
+.home-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    display: block;
+}
+
+
+.tagline {
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: #f4f3fa;  
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    justify-items: center;
+    width: 90%;
+    z-index: 2;
+}
+
+/* Responsive Adjustments for Home Section */
+@media (max-width: 768px) {
+    .home-section {
+        height: calc(40vh + 60px);
+    }
+
+    .tagline {
+        font-size: 24px;
+        top: 59%;
+       
+    }
+}
+
+@media (max-width: 480px) {
+    .home-section {
+        height: calc(35vh + 60px);
+    }
+
+    .tagline {
+        font-size: 20px;
+        top: 59%;
+    =
+    }
+}
+
+
+.coding-facts-section div
+{
+    margin-bottom: 0px;
+}
+/* Interesting Coding Facts Section */
+.coding-facts-section {
+    background-color: #f1f8ff; /* Light background color */
+    padding: 40px 20px;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 0px; /* Space between tagline and facts section */
+}
+
+.coding-facts-section .section-header h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Facts container styling */
+.coding-facts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive layout */
+    gap: 20px;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+/* Individual fact card */
+.fact-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.fact-card:hover {
+    transform: translateY(-5px);
+}
+
+.fact-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.fact-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.content-section {
+    padding: 40px 10px;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section-header h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 0;
+}
+
+.more-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(60, 59, 154);
+    transition: 0.3s;
+}
+.more-link:hover {
+    text-decoration: underline;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.book-card:h3{
+    text-decoration: none;
+}
+.book-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    text-align: none;
+    text-decoration: none;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border-radius: 3%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+
+}
+
+.book-card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #222;
+    text-decoration: none;
+}
+
+.book-card p {
+    color: #666;
+    font-size: 14px;
+}
+
+
+/*      INDIVIDUAL COLORS       */
+
+#ebooks { background-color: #e9eff2; }
+#notes { background-color: #d7dbdf; }
+#question-papers {
+    background-color: #e5eff0;
+    margin-bottom: 0px; /* prevent overlap with footer */
+    text-decoration: none;
+}
+
+
+.qpapers img
+{
+    width:100%;
+    margin :0px;
+    padding :0px;
+ 
+}
